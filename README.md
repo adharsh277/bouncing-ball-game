@@ -9,11 +9,13 @@ Designed as a clean, CI/CD-ready mini-game to **level up your Python + DevOps po
 
 ## 🚦 Tech Stack & Tools
 
-[![Python](https://img.shields.io/badge/Python-Game%20Engine-yellow?logo=python)](https://www.python.org/)  
-[![Pygame](https://img.shields.io/badge/Pygame-Graphics%20Library-%2300A300?logo=pygame)](https://www.pygame.org/)  
-[![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)](https://www.docker.com/)  
-[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-blue?logo=githubactions)](https://github.com/features/actions)  
-[![Open Source](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-Game%20Engine-yellow?logo=python)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-2D%20Graphics-%2300A300?logo=pygame)](https://www.pygame.org/)
+[![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker)](https://www.docker.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-blue?logo=githubactions)](https://docs.github.com/en/actions)
+[![Assets](https://img.shields.io/badge/Game%20Assets-Fruit%20Images-orange?logo=googlephotos)](https://freepngimg.com)
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 
 ---
 
