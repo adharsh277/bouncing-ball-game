@@ -1,11 +1,8 @@
-# 🍉 Fruit Slice Game — Python, Docker & CI/CD Arcade Clone
+# 🍉 Interactive Fruit-Slicing Game — Python, Docker & CI/CD Pipeline Integration
 
-This project brings a fun and simple arcade-style **Fruit Ninja-inspired game** to life using [Pygame](https://www.pygame.org/).  
-You’ll slice flying fruits using your mouse, score points, and learn the **DevOps pipeline** along the way — from building with [Docker](https://www.docker.com/) to deploying and testing with [GitHub Actions](https://docs.github.com/en/actions).
-
-Designed as a clean, CI/CD-ready mini-game to **level up your Python + DevOps portfolio**. ⚔️🍌
-
----
+This project originated as a simple bouncing ball animation built using Python and Pygame. It was later enhanced into an interactive fruit-slicing game where various fruits rise from the bottom of the screen, and the user earns points by slicing them through mouse clicks.
+The goal was to transform a basic game prototype into a more engaging and visually interactive experience, while also incorporating modern DevOps practices. The project is fully containerized using Docker and includes a GitHub Actions workflow that automates the build process via continuous integration.
+This serves as a portfolio-ready demonstration of combining **Python game development** with **CI/CD automation** and **Docker-based deployment**.
 
 ## 🚦 Tech Stack & Tools
 
@@ -18,46 +15,39 @@ Designed as a clean, CI/CD-ready mini-game to **level up your Python + DevOps po
 
 
 ---
-
-## 🧠 What This Game Does
-
-- 🥭 Fruits fly up from random positions with varying speed
-- 🖱️ Click on fruits to slice them and earn points
-- 🧮 Score shown live in top-right corner
-- 🐳 Fully Dockerized setup for portability
-- 🔁 CI/CD Pipeline with GitHub Actions builds Docker image on every push
-
-
-## 🧩 Project Structure
-bouncing-ball-game/
-├── assets/ # Fruit images (apple.png, banana.png, etc.)
-├── game.py # Main game logic
-├── Dockerfile # Docker image setup
-├── requirements.txt # Python dependencies
+🧩 Project Structure
+python
+Copy
+Edit
+fruit-slice-game/
+├── assets/             # Fruit images (apple.png, banana.png, etc.)
+├── game.py             # Main game logic
+├── Dockerfile          # Docker image setup
+├── requirements.txt    # Python dependencies
 └── .github/
-└── workflows/
-└── docker.yml # CI/CD workflow
-
-## 🖥️ Run Locally
-
-### 1. Clone the Repo
-
-```bash
+    └── workflows/
+        └── docker.yml  # CI/CD workflow
+🖥️ Run Locally
+1. Clone the Repo
+bash
+Copy
+Edit
 git clone https://github.com/adharsh277/bouncing-ball-game.git
 cd bouncing-ball-game
-
-## Install Requirements
+2. Install Requirements
 bash
 Copy
 Edit
 pip install -r requirements.txt
-3. Play the Game!
+3. Play the Game
 bash
 Copy
 Edit
-## python game.py
+python game.py
+✅ A window will open where fruits fly up — slice them with your mouse!
+
 🐳 Run with Docker
-✅ Requires X11 support (for GUI) if you're running in Docker
+✅ Requires X11 support if running in Docker on Linux/macOS
 
 bash
 Copy
@@ -67,15 +57,20 @@ docker run -it fruit-slice-game
 ⚙️ CI/CD: GitHub Actions
 Every time you push to the main branch, GitHub Actions will:
 
-Checkout the repo
+✅ Checkout the repo
 
-Build the Docker image
+🐳 Build the Docker image
 
-Run install steps (expandable for testing)
+⚙️ Install requirements
 
-Config: .github/workflows/docker.yml
+🚀 (Expandable) Add testing or auto-deployment steps
 
+Workflow config is located at:
 
+bash
+Copy
+Edit
+.github/workflows/docker.yml
 
 
 
